@@ -47,11 +47,11 @@ namespace Client.Infrastructure.Validation
                 .Matches(@"^3\d{9}$").WithMessage("El teléfono debe comenzar con '3' y tener un total de 10 dígitos.");
 
             RuleFor(x => x.Contraseña)
-                .Matches(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*(),.?""':{}|<>])(?=.*\d)[A-Za-z\d!@#$%^&*(),.?""':{}|<>]{8,}$")
-                .NotEmpty().WithMessage("La contraseña no puede estar vacía.")
-                .NotNull().WithMessage("La contraseña no puede ser nula.")
-                .WithMessage("La contraseña debe tener al menos 8 caracteres, incluyendo al menos una mayúscula, una minúscula, un número y un carácter especial.");
+                .Matches(@"^(?=.*[A-Z])(?=.*[a-z])(?=.*[!@#$%^&*(),.?""':{}|<>])(?=.*\d)[A-Za-z\d!@#$%^&*(),.?""':{}|<>]{8,}$").WithMessage("La contraseña debe tener al menos 8 caracteres, incluyendo al menos una mayúscula, una minúscula, un número y un carácter especial.")
 
+                .NotEmpty().WithMessage("La contraseña no puede estar vacía.")
+                .NotNull().WithMessage("La contraseña no puede ser nula.");
+                
 
         }
         public ValidationResult ClienteValidationResult(Cliente cliente)
