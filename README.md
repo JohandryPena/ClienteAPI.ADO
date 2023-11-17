@@ -61,15 +61,25 @@ dotnet ef {{RUTA pROJECT}} update-database
 ## LINKS
 
 
- - [Podra encontrar la collecionde postman (AQUI) ](https://solar-rocket-100883.postman.co/workspace/s~cedc7df0-47ee-4832-860f-e080911bfbb2/collection/9370844-7eb246c0-2244-423d-95df-8055f83c233a?action=share&creator=9370844)
 
  - [FrontEnd para esta API (AQUI) ](https://github.com/JohandryPena/ClienteFront.ADO)
 
+
+
+## Demo
+
+ - [Podra encontrar la collecionde postman (AQUI) ](https://solar-rocket-100883.postman.co/workspace/s~cedc7df0-47ee-4832-860f-e080911bfbb2/collection/9370844-7eb246c0-2244-423d-95df-8055f83c233a?action=share&creator=9370844)
+
+  API DESPLEGADA EN AZURE 
 - [https://clientapi20231115135615.azurewebsites.net/api]
 
 
-    
+
 ## Authors
 
-- [JOHANDRI PEÑA PACHECO](https://github.com/JohandryPena)
+- [@JohandryPena](https://github.com/JohandryPena)
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/JohandryPena)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johandripenapacheco/)
 
