@@ -34,7 +34,7 @@ namespace Client.API.Controllers
         public async Task<ActionResult<ClienteDTO>> PostClienteAsync([FromBody] ClienteDTO cliente)
         {
             if (cliente !=null)
-               return Ok(await _seccionService.RegistrarCliente(cliente));
+               return Ok(new { Mensaje = await _seccionService.RegistrarCliente(cliente) });
             return BadRequest(new {Mensaje="Algo Salio Mal"});
             
         }
