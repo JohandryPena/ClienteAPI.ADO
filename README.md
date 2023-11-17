@@ -7,16 +7,7 @@ Es una aplicación de .NET 6 diseñada para gestionar la información de cliente
 
 ## API Reference
 
-#### Get all items
 
-```http
-  GET    /api/Clientes
-  GET    /api/Clientes/1
-  POST   /api/Clientes
-  PUT    /api/Clientes/1
-  DELETE /api/Clientes/1
-  
-```
 
  #####  Cliente
 
@@ -67,18 +58,6 @@ o Tambien se puede especificar la ruta
 dotnet ef {{RUTA pROJECT}} update-database 
 ``` 
 
-
-
-
-
-## Migraticion de Base Datos
-
-para aplicar las migraciones a una base de datos. 
-Ejecutar con la consola nguet. 
-
-```bash
-update-database 
-```
 ## LINKS
 
 
